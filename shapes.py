@@ -1,8 +1,8 @@
 class Circle:
 
 
-    def __init__(self,radius):
-        self.radius = 0
+    def __init__(self):
+        self.r = 0
 
 
 
@@ -20,7 +20,7 @@ class Circle:
 
 
 class Square:
-    def __init__(self,a):
+    def __init__(self):
         self.a = 0
 
     def area(self,a):
@@ -28,13 +28,13 @@ class Square:
 
         return A
 
-    def perimeter(self,a):
+    def perimeter(self):
         P = 4*a
 
         return P
 
 class Rectangle:
-    def __init__(self,w,l):
+    def __init__(self):
         self.w = 0
         self.l = 0
 
@@ -43,14 +43,14 @@ class Rectangle:
 
         return A
 
-    def perimeter(self,w,l):
+    def perimeter(self):
         P = 2*(w+l)
 
         return P
 
 
 class Sphere:
-    def __init__(self,r):
+    def __init__(self):
         self.r = 0
 
     def surface_area(self,r):
